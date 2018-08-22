@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#header-content{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+#header-content div{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+#par_1{
+    background-image: url(../img/header/back_void.svg);
+}
+#par_2{
+    background-image: url(../img/header/back_earth.svg);
+    top: 20%;
+}
+#par_3{
+    background-image: url(../img/header/back_elevator.svg);
+    top: 40%;
+}
+section{
+    height: 200vh;
+    background-color: #00324a;
+}
+
+#main-nav{
+    background-color: rgba(255,140,0,0.8);
+}
+#main-nav button{
+    background-color: white;
+}
+#main-nav a{
+    color: white;
+}

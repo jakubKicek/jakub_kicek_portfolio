@@ -77,17 +77,17 @@ div#smartphone {
     }
 }
 
+
+#main-nav .navbar-brand{
+    
+}
+
+#main-nav button {
+    background-color: white;
+}
 section {
     height: 200vh;
     background-color: #000d27;
     position: relative;
 /*    z-index: 90;*/
 }
-
-#main-nav {}
-
-#main-nav button {
-    background-color: white;
-}
-
-#main-nav a {}

@@ -2,10 +2,16 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: #000d27;
 }
-header{
+
+
+/*HEADER START*/
+
+header {
     overflow: hidden;
 }
+
 #header-content {
     position: relative;
     overflow: hidden;
@@ -28,50 +34,67 @@ header{
     left: auto;
     margin: 0;
 }
+
 div#smartphone {
     opacity: 1;
     background-image: url(../img/header/m480.svg);
 }
 
+/*HEADER END*/
 
+/*MAIN NAV START*/
 
-#main-nav{
+#main-nav {
     display: flex;
+    -webkit-transition: all 0.5s ease-in-out;
 }
 
-#main-nav .navbar-brand{
-    font-size: 5vw;
+#main-nav a {
+    -webkit-transition: all 0.5s ease-in-out;
 }
-#main-nav a{
+
+#main-nav .navbar-brand {
+    font-size: 8vw;
+}
+
+#main-nav a {
     font-size: 4vw;
     text-transform: uppercase;
 }
+
 #main-nav button {
     background-color: white;
     padding: 1em 4em;
     box-sizing: border-box;
     border-radius: 1em;
 }
-#main-nav button span{
+
+#main-nav button span {
     width: 5em;
     height: 5em;
 }
-section {
+
+/*MAIN NAV STOP*/
+
+/*ABOUT START*/
+
+section#about{
     height: 200vh;
-    background-color: #000d27;
-    position: relative;
-    z-index: 90;
-    top: -0.1vh;
+    color: whitesmoke;
+    margin-top: 20vh;
+}
+#face{
+    background-image: url(../img/about/face2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
 }
 
-
-
-
-
-
-
-
 /*WIDTH > 1024px*/
+
 @media (min-width: 1025px) {
     div#par_1 {
         background-image: url(../img/header/forrest_1.svg);
@@ -113,13 +136,21 @@ section {
     div#smartphone {
         opacity: 0;
     }
-    
-    
-    #main-nav .navbar-brand{
+
+
+    #main-nav .navbar-brand {
         font-size: 200%;
     }
-    #main-nav a{
-    font-size: 100%;
-    text-transform: uppercase;
+    #main-nav a {
+        font-size: 100%;
+        text-transform: uppercase;
+    }
 }
+
+.amWhite {
+    background-color: rgba(0, 13, 39, 0.5);
+}
+
+#main-nav.amWhite a {
+    color: whitesmoke;
 }

@@ -12,7 +12,7 @@ $(document).ready(function(){
         for(let i=0;i<layers.length;i++){
             layer=layers[i];
             speed=$(layer).attr("data-speed");
-            yPos = -(top*speed/100);
+            yPos = (top*speed/100);
             $(layer).attr('style','transform: translate3d(0px, ' + yPos + 'px, 0px)');
         }
     })

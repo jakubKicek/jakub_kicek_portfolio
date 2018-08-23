@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg id="master-artboard" viewBox="0 0 1400 980" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 0 0 1400 980;" width="1400px" height="980px"><rect id="ee-background" x="0" y="0" width="1400" height="980" style="fill: white; fill-opacity: 0; pointer-events: none;"/><g id="Background" transform="matrix(0.875, 0, 0, 0.875, 0.000014046901867459383, 70.71807644085516)">
+<svg id="master-artboard" viewBox="0 0 1398.1552734375 786.0604248046875" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 0 0 1400 980;" width="1398.1552734375px" height="786.0604248046875px"><rect id="ee-background" x="0" y="0" width="1398.1552734375" height="786.0604248046875" style="fill: white; fill-opacity: 0; pointer-events: none;"/><g id="Background" transform="matrix(0.875, 0, 0, 0.875, -1.839097261428833, 0.15891343041485584)">
 	<path d="M 0 0 H 1600 V 900 H 0 V 0 Z" class="st0" style="fill: rgb(255, 255, 255);"/>
 	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-0.9439" y1="1.6864" x2="1600.944" y2="898.3136">
 		<stop offset="0" style="stop-color:#182228"/>
 		<stop offset="1" style="stop-color:#3F4C66"/>
 	</linearGradient>
-	<path d="M 0 0 H 1600 V 900 H 0 V 0 Z" class="st1" style="fill: url('#SVGID_1_');" transform="matrix(1, 0, 0, 1, -1.4589666245570925, -2.917933249114327)"/>
+	<path d="M 0 0 H 1600 V 900 H 0 V 0 Z" class="st1" style="fill: url('#SVGID_1_');"/>
 	<path d="M 158.899997 284.600006 A 2.7 2.7 0 0 1 156.199997 287.300006 A 2.7 2.7 0 0 1 153.499997 284.600006 A 2.7 2.7 0 0 1 156.199997 281.900006 A 2.7 2.7 0 0 1 158.899997 284.600006 Z" class="st0" style="fill: rgb(255, 255, 255);"/>
 	<path d="M 215.000003 48.700001 A 2.7 2.7 0 0 1 212.300003 51.400001 A 2.7 2.7 0 0 1 209.600003 48.700001 A 2.7 2.7 0 0 1 212.300003 46.000001 A 2.7 2.7 0 0 1 215.000003 48.700001 Z" class="st0" style="fill: rgb(255, 255, 255);"/>
 	<path d="M 467.599994 155.199997 A 2.7 2.7 0 0 1 464.899994 157.899997 A 2.7 2.7 0 0 1 462.199994 155.199997 A 2.7 2.7 0 0 1 464.899994 152.499997 A 2.7 2.7 0 0 1 467.599994 155.199997 Z" class="st0" style="fill: rgb(255, 255, 255);"/>

@@ -1,44 +1,120 @@
-body{
+body {
     padding: 0;
     margin: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: pink;
 }
 
-#header-content{
+#header-content {
     position: relative;
     overflow: hidden;
     width: 100vw;
     height: 100vh;
     top: 0;
 }
-#header-content div{
+
+#header-content div {
     position: absolute;
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
+    top: -20vh;
 }
-#par_1{
-    background-image: url(../img/header/back_void.svg);
-}
-#par_2{
-    background-image: url(../img/header/back_earth.svg);
-    top: 20%;
-}
-#par_3{
-    background-image: url(../img/header/back_elevator.svg);
-    top: 40%;
-}
-section{
-    height: 200vh;
-    background-color: #00324a;
+/*
+@media (max-width: 360px){
+#par_1 {
+    opacity: 0;
 }
 
-#main-nav{
-    background-color: rgba(255,140,0,0.8);
+#par_2 {
+    opacity: 0;
 }
-#main-nav button{
+
+#par_3 {
+    opacity: 0;
+}
+
+
+#par_4 {
+    background-image: url(../img/header/spaceship.svg);
+}
+}
+
+@media (min-width: 361px) {
+    #par_4 {
+        background-image: url(../img/header/void.svg);
+    }
+}
+
+@media (min-width: 1024px) {
+    #par_1 {
+        background-image: url(../img/header/back_void.svg);
+        opacity: 1;
+    }
+    #par_2 {
+        background-image: url(../img/header/back_earth.svg);
+        opacity: 1;
+
+        top: 20%;
+    }
+    #par_3 {
+        background-image: url(../img/header/back_elevator.svg);
+        opacity: 1;
+        top: 40%;
+        z-index: 1;
+    }
+    #par_4 {
+        opacity: 0;
+    }
+}
+*/
+#par_1{
+    background-image: url(../img/header/forrest_1.svg);
+}
+#par_2{
+        background-image: url(../img/header/forrest_2.svg);
+
+}
+#par_3{
+        background-image: url(../img/header/forrest_3.svg);
+
+}
+#par_4{
+        background-image: url(../img/header/forrest_4.svg);
+
+}
+#par_5{
+        background-image: url(../img/header/forrest_5.svg);
+
+}
+#par_6{
+        background-image: url(../img/header/forrest_6.svg);
+top: 5vh;
+}
+#par_7{
+        background-image: url(../img/header/forrest_7.svg);
+}
+#par_8{
+        background-image: url(../img/header/forrest_8.svg);
+}
+div#par_9{
+        background-image: url(../img/header/forrest_9.svg);
+    top: -29vh;
+}
+section {
+    height: 200vh;
+    background-color: #000d27;
+    position: relative;
+    z-index: 90;
+}
+
+#main-nav {
+}
+
+#main-nav button {
     background-color: white;
 }
-#main-nav a{
-    color: white;
+
+#main-nav a {
 }

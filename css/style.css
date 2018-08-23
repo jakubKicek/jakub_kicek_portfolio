@@ -2,7 +2,6 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    background-color: pink;
 }
 header{
     overflow: hidden;
@@ -34,7 +33,46 @@ div#smartphone {
     background-image: url(../img/header/m480.svg);
 }
 
-@media (min-width: 1024px) {
+
+
+#main-nav{
+    display: flex;
+}
+
+#main-nav .navbar-brand{
+    font-size: 5vw;
+}
+#main-nav a{
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+#main-nav button {
+    background-color: white;
+    padding: 1em 4em;
+    box-sizing: border-box;
+    border-radius: 1em;
+}
+#main-nav button span{
+    width: 5em;
+    height: 5em;
+}
+section {
+    height: 200vh;
+    background-color: #000d27;
+    position: relative;
+    z-index: 90;
+    top: -0.1vh;
+}
+
+
+
+
+
+
+
+
+/*WIDTH > 1024px*/
+@media (min-width: 1025px) {
     div#par_1 {
         background-image: url(../img/header/forrest_1.svg);
         opacity: 1;
@@ -75,19 +113,13 @@ div#smartphone {
     div#smartphone {
         opacity: 0;
     }
-}
-
-
-#main-nav .navbar-brand{
     
+    
+    #main-nav .navbar-brand{
+        font-size: 200%;
+    }
+    #main-nav a{
+    font-size: 100%;
+    text-transform: uppercase;
 }
-
-#main-nav button {
-    background-color: white;
-}
-section {
-    height: 200vh;
-    background-color: #000d27;
-    position: relative;
-/*    z-index: 90;*/
 }

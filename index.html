@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <title>Jakub Kicek</title>
 
-    
+<!--STYLES-->
     <link rel="stylesheet" href="bootstrap/bootstrap-css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+<!--FONTS-->
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -20,13 +22,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link flex-item" href="#">About</a>
+                    <a class="nav-link flex-item" href="#">Cześć!</a>
                 </li>
                 <li class="nav-item flex-item">
-                    <a class="nav-link" href="#">Skills</a>
+                    <a class="nav-link" href="#">Moje umiejętności</a>
                 </li>
                 <li class="nav-item flex-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -47,22 +49,107 @@
         </div>
     </header>
 
-    <section id="about" class="container">
-        <div class="row">
-            <div class="col col-sm-6">
-            <div id="face"></div>
-            </div>
-            <div class="col-12 col-sm-6">
-                <article><h2>Yeeep. That's me</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae odio sunt natus cum eligendi sed repellendus, dolorum nobis non cupiditate. Aliquam quae nemo unde dignissimos, nihil ducimus, molestiae tempora nisi consectetur quia aut doloremque eum, veritatis eveniet incidunt. Omnis eligendi aspernatur officiis quo earum maxime, vero et dolore nam iusto incidunt quibusdam illum non unde ratione sequi, soluta corporis? A repellat velit, et earum quae fugiat cum quis nulla illum corporis. Sapiente nihil enim commodi dignissimos mollitia harum molestias, nulla error possimus deleniti sint debitis, facilis fugit magni autem molestiae incidunt, aperiam officia eos delectus atque. In ipsum totam quas.</article>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 col-lg-6">
+                    <div id="face"></div>
+                </div>
+                <div class="d-none d-md-block d-lg-none col-md-2">
+                </div>
+                <div class="col-sm-12 col-md-5 col-lg-6">
+                    <article class="text-justify">
+                        <h2 class="text-center">Yeeep. That's me</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae odio sunt natus cum eligendi sed repellendus, dolorum nobis non cupiditate. Aliquam quae nemo unde dignissimos, nihil ducimus, molestiae tempora nisi consectetur quia aut doloremque eum, veritatis eveniet incidunt. Omnis eligendi aspernatur officiis quo earum maxime, vero et dolore nam iusto incidunt quibusdam illum non unde ratione sequi, soluta corporis? A repellat velit, et earum quae fugiat cum quis nulla illum corporis. Sapiente nihil enim commodi dignissimos mollitia harum molestias, nulla error possimus deleniti sint debitis, facilis fugit magni autem molestiae incidunt, aperiam officia eos delectus atque. In ipsum totam quas.</article>
+                </div>
             </div>
         </div>
     </section>
 
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id="my-skills">
+                        <article class="text-justify">
+                            <h2 class="text-center">Moje umięjętności</h2>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div id="my-skills" class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <img src="img/skills/html5.svg" alt="">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <img src="img/skills/CSS3.svg" alt="">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <img src="img/skills/JS.svg" alt="">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <img src="img/skills/Git.svg" alt="">
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                               <figure>
+                                <img src="img/skills/JQuery.svg" alt="">
+                                </figure>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <img src="img/skills/Boostrap.svg" alt="">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <img src="img/skills/WordPress.svg" alt="">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                                <img src="img/skills/Sass.svg" alt="">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                               <figure>
+                                <img src="img/skills/AJAX.svg" alt="">
+                                </figure>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="text-center">Zatrudnij mnie!</h2>
+        <div class="container">
+            <div class="row">
+                <div class="sm-block col-sm-12 ">
+                    <form action="https://formspree.io/j.kicek@gmail.com" method="post">
+                        <input name="name" type="text" class="form-control" placeholder="Imię i nazwisko">
+                        <input name="email" type="email" class="form-control" placeholder="Email">
+                        <textarea name="message" class="form-control" placeholder="Miejsce na Twoją wiadomość"></textarea>
+                        <input type="submit" class="btn btn-lg submitBtn" value="Wyślij">
+                    </form>
+                </div>               
+                <div class="col-sm-12 col-md-6">
+                    <address>
+                        tel. +48 784 496 436<br>
+                        email j.kicek@gmail.com<br>
+                    </address>
+                    <div id="socials">
+                        <a href="" id="git"><i class="fab fa-github"></i></a>
+                        <a href="" id="li"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="d.none md-block col-md-6">
+                
+                </div>
+
+            </div>
+        </div>
+    </section>
     <script src="js/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="bootstrap/bootstrap-js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    
+
 </body>
 
 </html>

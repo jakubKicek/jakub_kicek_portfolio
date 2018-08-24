@@ -1,8 +1,10 @@
+*{
+    box-sizing: border-box;
+}
 body {
     padding: 0;
     margin: 0;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    background-color: #000d27;
 }
 
 
@@ -58,7 +60,7 @@ div#smartphone {
 }
 
 #main-nav a {
-    font-size: 4vw;
+    font-size: 3vw;
     text-transform: uppercase;
 }
 
@@ -78,12 +80,18 @@ div#smartphone {
 
 /*ABOUT START*/
 
-section#about{
-    height: 200vh;
+section#about {
     color: whitesmoke;
-    margin-top: 20vh;
+    padding-top: 23vh;
+    padding-bottom: 23vh;
+    background-color: #000d27;
 }
-#face{
+
+#about div {
+    text-align: center;
+}
+
+#face {
     background-image: url(../img/about/face2.png);
     background-size: cover;
     background-position: center;
@@ -91,6 +99,52 @@ section#about{
     box-sizing: border-box;
     width: 400px;
     height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*ABOUT END*/
+/*SKILLS START*/
+section#skills{
+    background-color: whitesmoke;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    border-top: 5vh solid lightgrey;
+    border-bottom: 5vh solid lightgrey;
+    color: #000d27;
+}
+section#skills #my-skills .row div{
+    text-align: center;
+    height: 6em;
+    overflow: hidden;
+    margin-top: 2em;
+}
+section#skills #my-skills>.row div>img{
+    max-height: 90%;
+}
+section#skills #my-skills>.row div figure img{
+    max-width: 90%;
+}
+/*SKILLS END*/
+/*CONTACT START*/
+section#contact {
+    color: whitesmoke;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #000d27;
+}
+input, textarea{
+    margin-bottom: 1em;
+}
+.submitBtn{
+    background-color: #ffe400;
+    transition-duration: 0.5s;
+    color: #000d27;
+    border: 2px solid #ffe400;;
+}
+.submitBtn:hover{
+    color: #ffe400;
+    background-color: #000d27;
+    border: 2px solid #ffe400;
 }
 
 /*WIDTH > 1024px*/
@@ -138,19 +192,19 @@ section#about{
     }
 
 
-    #main-nav .navbar-brand {
-        font-size: 200%;
-    }
-    #main-nav a {
-        font-size: 100%;
-        text-transform: uppercase;
-    }
+#main-nav a.navbar-brand {
+    font-size: 200%;
+    text-transform: uppercase;
+}
+#main-nav a {
+    font-size: 100%;
+    text-transform: none;
+}
 }
 
 .amWhite {
     background-color: rgba(0, 13, 39, 0.5);
 }
-
 #main-nav.amWhite a {
     color: whitesmoke;
 }

@@ -13,11 +13,24 @@ $(document).ready(function () {
 
         let nav = $('#main-nav');
         let windowHeight = this.innerHeight;
-        if (top >= windowHeight*0.3) {
+        if (top >= windowHeight * 0.3) {
             nav.addClass('amWhite');
         } else {
             nav.removeClass('amWhite');
         }
+
+
+        
+        $(".navbar-nav li a").click(function (event) {
+            $(".navbar-collapse").collapse('hide');
+        });
+        $("section").click(function (event) {
+            $(".navbar-collapse").collapse('hide');
+        });
+        $("header").click(function (event) {
+            $(".navbar-collapse").collapse('hide');
+        });
+        
     })
 
 

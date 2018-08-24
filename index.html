@@ -120,31 +120,57 @@
         <h2 class="text-center">Zatrudnij mnie!</h2>
         <div class="container">
             <div class="row">
-                <div class="sm-block col-sm-12 ">
-                    <form action="https://formspree.io/j.kicek@gmail.com" method="post">
+                <div class="sm-block col-sm-12 d-md-none">
+                    <form action="https://formspree.io/j.kicek@gmail.com" method="post" class="text-right">
                         <input name="name" type="text" class="form-control" placeholder="Imię i nazwisko">
                         <input name="email" type="email" class="form-control" placeholder="Email">
                         <textarea name="message" class="form-control" placeholder="Miejsce na Twoją wiadomość"></textarea>
                         <input type="submit" class="btn btn-lg submitBtn" value="Wyślij">
                     </form>
                 </div>               
-                <div class="col-sm-12 col-md-6">
-                    <address>
+                <div class="col-sm-12 d-md-none">
+                    <div id="socials" class="container">
+                       <div class="row">
+                       <div class="col-sm-3"><a href="" id="git"><i class="fab fa-github"></i></a></div>
+                       <div class="col-sm-3"><a href="" id="li"><i class="fab fa-linkedin"></i></a></div>
+                       <div class="col-sm-6">
+                           <address class="text-right">
+                       <br>tel. +48 784 496 436<br>email j.kicek@gmail.com<br>
+                    </address>
+                       </div>
+                    </div>
+                </div>
+                </div>
+                <div class="d-none d-md-block col-md-6">
+                    <address class="text-left">
+                       <br>
                         tel. +48 784 496 436<br>
                         email j.kicek@gmail.com<br>
                     </address>
-                    <div id="socials">
-                        <a href="" id="git"><i class="fab fa-github"></i></a>
-                        <a href="" id="li"><i class="fab fa-linkedin"></i></a>
+                    <div id="socials" class="container">
+                       <div class="row">
+                       <div class="col-sm-3"><a href="" id="git"><i class="fab fa-github"></i></a></div>
+                       <div class="col-sm-3"><a href="" id="li"><i class="fab fa-linkedin"></i></a></div>
+                       </div>
                     </div>
                 </div>
-                <div class="d.none md-block col-md-6">
-                
+                <div class="d-none d-md-block col-md-6">
+                    <form action="https://formspree.io/j.kicek@gmail.com" method="post" class="text-right">
+                        <input name="name" type="text" class="form-control" placeholder="Imię i nazwisko">
+                        <input name="email" type="email" class="form-control" placeholder="Email">
+                        <textarea name="message" class="form-control" placeholder="Miejsce na Twoją wiadomość"></textarea>
+                        <input type="submit" class="btn btn-lg submitBtn" value="Wyślij">
+                    </form>
                 </div>
-
             </div>
         </div>
     </section>
+    
+    
+    <footer>
+        <p class="text-center">Copyright &copy; 2018 Jakub Kicek<span> Designed with the <a href="https://www.vecteezy.com/">Vecteezy Editor</a></span></p>
+    </footer>
+    
     <script src="js/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="bootstrap/bootstrap-js/bootstrap.min.js"></script>

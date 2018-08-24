@@ -128,9 +128,12 @@ section#skills #my-skills>.row div figure img{
 /*CONTACT START*/
 section#contact {
     color: whitesmoke;
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 10vh;
     background-color: #000d27;
+}
+form{
+    margin-top: 1em;
 }
 input, textarea{
     margin-bottom: 1em;
@@ -146,7 +149,33 @@ input, textarea{
     background-color: #000d27;
     border: 2px solid #ffe400;
 }
-
+#socials a{
+    font-size: 4em;
+    color: #ffe400;
+    transition-duration: 0.5s;
+}
+#socials a:hover{
+    color: #bba100;
+}
+/*CONTACT END*/
+/*FOOTER START*/
+footer{
+    background-color: whitesmoke;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: #000d27;
+}
+footer p{
+    margin: 0;
+}
+footer span{
+    border-left: 1px dotted #000d27;
+    padding-left: 3vw;
+    margin-left: 3vw;
+}
+footer a{
+    color: #000d27;
+}
 /*WIDTH > 1024px*/
 
 @media (min-width: 1025px) {

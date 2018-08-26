@@ -1,12 +1,12 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     padding: 0;
     margin: 0;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
-
 
 /*HEADER START*/
 
@@ -17,8 +17,6 @@ header {
 #header-content {
     position: relative;
     overflow: hidden;
-    width: 100vw;
-    height: 100vh;
     top: 0;
     font-size: 0;
     padding: 0;
@@ -40,6 +38,7 @@ header {
 div#smartphone {
     opacity: 1;
     background-image: url(../img/header/m480.svg);
+
 }
 
 /*HEADER END*/
@@ -82,8 +81,6 @@ div#smartphone {
 
 section#about {
     color: whitesmoke;
-    padding-top: 23vh;
-    padding-bottom: 23vh;
     background-color: #000d27;
 }
 
@@ -102,83 +99,220 @@ section#about {
     margin-left: auto;
     margin-right: auto;
 }
+
 /*ABOUT END*/
+
 /*SKILLS START*/
-section#skills{
+
+section#skills {
     background-color: whitesmoke;
-    padding-top: 15vh;
-    padding-bottom: 15vh;
     border-top: 5vh solid lightgrey;
     border-bottom: 5vh solid lightgrey;
     color: #000d27;
 }
-section#skills #my-skills .row div{
+
+section#skills #my-skills .row div {
     text-align: center;
     height: 6em;
     overflow: hidden;
     margin-top: 2em;
 }
-section#skills #my-skills>.row div>img{
+
+section#skills #my-skills > .row div > img {
     max-height: 90%;
 }
-section#skills #my-skills>.row div figure img{
+
+section#skills #my-skills > .row div figure img {
     max-width: 90%;
 }
+
 /*SKILLS END*/
+
 /*CONTACT START*/
+
 section#contact {
     color: whitesmoke;
     padding-top: 5vh;
     padding-bottom: 10vh;
     background-color: #000d27;
 }
-form{
+
+form {
     margin-top: 1em;
 }
-input, textarea{
-    margin-bottom: 1em;
-}
-.submitBtn{
+
+
+.submitBtn {
     background-color: #ffe400;
     transition-duration: 0.5s;
     color: #000d27;
-    border: 2px solid #ffe400;;
+    border: 2px solid #ffe400;
+
 }
-.submitBtn:hover{
+
+.submitBtn:hover {
     color: #ffe400;
     background-color: #000d27;
     border: 2px solid #ffe400;
 }
-#socials a{
+
+#socials1 a,#socials2 a {
     font-size: 4em;
     color: #ffe400;
     transition-duration: 0.5s;
 }
-#socials a:hover{
+
+#socials1 a:hover,#socials2 a:hover {
     color: #bba100;
 }
+
 /*CONTACT END*/
+
 /*FOOTER START*/
-footer{
+
+footer {
     background-color: whitesmoke;
     padding-top: 2vh;
     padding-bottom: 2vh;
     color: #000d27;
 }
-footer p{
+
+footer p {
     margin: 0;
 }
-footer span{
+
+footer span {
     border-left: 1px dotted #000d27;
     padding-left: 3vw;
     margin-left: 3vw;
 }
-footer a{
+
+footer a {
     color: #000d27;
 }
+
+/*RWD*/
+
+h2 {
+    font-size: 70px;
+}
+
+article {
+    font-size: 40px;
+}
+
+section#about {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section#skills {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#header-content {
+    width: 100vw;
+    height: 100vh;
+}
+
+input.form-control,
+textarea.form-control {
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+p {
+    font-size: 30px;
+}
+
+/*WIDTH > 750px*/
+
+@media (min-width: 750px) {
+    #main-nav a{
+        font-size: 4vw;
+    }
+    #main-nav .navbar-brand{
+        font-size: 8vw;
+    }
+    h2 {
+        font-size: 65px;
+    }
+    article {
+        font-size: 30px;
+    }
+    section#skills {
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+    }
+    section#about {
+        padding-top: 18vh;
+        padding-bottom: 18vh;
+    }
+    input.form-control,
+    textarea.form-control {
+        font-size: 2.5em;
+    }
+    p {
+        font-size: 30px;
+    }
+    footer p{
+        font-size: 25px;
+    }
+    input[type="submit"] {
+        font-size: 3em;
+    }
+    #socials1 .row{
+        padding-top: 5vh;
+    }
+    #li i,#git i{
+        padding-top: 4vh;
+    }
+}
+
+
 /*WIDTH > 1024px*/
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
+    #main-nav a{
+        font-size: 2vw;
+    }
+    #main-nav .navbar-brand{
+        font-size: 4vw;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    article {
+        font-size: 23px;
+    }
+    section#skills {
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+    }
+    section#about {
+        padding-top: 23vh;
+        padding-bottom: 23vh;
+    }
+    input.form-control,
+    textarea.form-control {
+        font-size: 1em;
+    }
+    p {
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+    footer p{
+        font-size: 1em;
+    }
+    input[type="submit"] {
+        font-size: 1em;
+    }
+    #li i,#git i{
+        padding-top: 0;
+        font-size: 0.8em;
+    }
+    
     div#par_1 {
         background-image: url(../img/header/forrest_1.svg);
         opacity: 1;
@@ -221,19 +355,20 @@ footer a{
     }
 
 
-#main-nav a.navbar-brand {
-    font-size: 200%;
-    text-transform: uppercase;
-}
-#main-nav a {
-    font-size: 100%;
-    text-transform: none;
-}
+    #main-nav a.navbar-brand {
+        font-size: 200%;
+        text-transform: uppercase;
+    }
+    #main-nav a {
+        font-size: 100%;
+        text-transform: none;
+    }
 }
 
 .amWhite {
     background-color: rgba(0, 13, 39, 0.5);
 }
+
 #main-nav.amWhite a {
     color: whitesmoke;
 }

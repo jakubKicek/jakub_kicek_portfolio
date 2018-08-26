@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <title>Jakub Kicek</title>
 
-<!--STYLES-->
+    <!--STYLES-->
     <link rel="stylesheet" href="bootstrap/bootstrap-css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-<!--FONTS-->
+    <!--FONTS-->
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="col-sm-12  col-lg-6">
                     <article class="text-justify">
-                        <h2 class="text-center">Cześć!</h2></article>
+                        <h2 class="text-center">Cześć!</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus illum, quam odit animi, voluptates assumenda. Eum suscipit, laboriosam voluptatibus voluptas sapiente asperiores sunt odio repudiandae perferendis id ipsum aliquid possimus, quae tempora doloribus debitis sint eligendi non voluptatum vero modi deleniti voluptate rerum. Quaerat minus minima sapiente debitis molestias delectus!</article>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                 <div class="col-sm-12 col-lg-6">
                     <div id="my-skills">
                         <article class="text-justify">
-                            <h2 class="text-center">Moje umięjętności</h2>
+                            <h2 class="text-center">Moje umięjętności</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia veniam harum, quis asperiores at tempore similique accusamus vitae reprehenderit laboriosam nulla omnis. Nam quos recusandae dolor pariatur tempora adipisci quae cumque deleniti, obcaecati eum voluptas itaque eos nihil eligendi hic culpa, nemo nobis in cupiditate iste sapiente. Nemo, repellendus, officia.
                         </article>
                     </div>
                 </div>
@@ -89,8 +89,8 @@
                                 <img src="img/skills/WordPress.svg" alt="">
                             </div>
                             <div class="col-sm-6 col-lg-6">
-                               <figure>
-                                <img src="img/skills/JQuery.svg" alt="">
+                                <figure>
+                                    <img src="img/skills/JQuery.svg" alt="">
                                 </figure>
                             </div>
                             <div class="col-sm-3 col-lg-3">
@@ -102,12 +102,12 @@
                             <div class="col-sm-6 col-lg-6">
                                 <img src="img/skills/Git.svg" alt="">
                             </div>
-                            <div class="col-sm-6 col-lg-6">
-                               <figure>
-                                <img src="img/skills/AJAX.svg" alt="">
+                            <div class="col-sm-4 col-lg-6">
+                                <figure>
+                                    <img src="img/skills/AJAX.svg" alt="">
                                 </figure>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -116,8 +116,9 @@
     </section>
     <section id="contact">
         <h2 class="text-center">Zatrudnij mnie!</h2>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
+                <div class="d-none d-lg-block col-lg-3"></div>
                 <div class="sm-block col-sm-12 d-lg-none">
                     <form action="https://formspree.io/j.kicek@gmail.com" method="post" class="text-right">
                         <input name="name" type="text" class="form-control" placeholder="Imię i nazwisko">
@@ -125,34 +126,35 @@
                         <textarea name="message" class="form-control" placeholder="Miejsce na Twoją wiadomość"></textarea>
                         <input type="submit" class="btn btn-lg submitBtn" value="Wyślij">
                     </form>
-                </div>               
+                </div>
                 <div class="col-sm-12 d-lg-none">
-                    <div id="socials" class="container">
-                       <div class="row">
-                       <div class="col-sm-3"><a href="" id="git"><i class="fab fa-github"></i></a></div>
-                       <div class="col-sm-3"><a href="" id="li"><i class="fab fa-linkedin"></i></a></div>
-                       <div class="col-sm-6">
-                           <address class="text-right">
-                       <br>tel. +48 784 496 436<br>email j.kicek@gmail.com<br>
-                    </address>
-                       </div>
+                    <div id="socials1" class="container">
+                        <div class="row">
+                           <div class="col-sm-2"><a href="" id="li"><i class="fab fa-linkedin"></i></a></div>
+                            <div class="col-sm-2"><a href="" id="git"><i class="fab fa-github"></i></a></div>
+                            <div class="col-sm-8">
+                                <address class="text-right"><br>
+                                    <p>tel. +48 784 496 436</p>
+                                    <p>email j.kicek@gmail.com</p>
+                                </address>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="d-none d-lg-block col-lg-6">
-                    <address class="text-left">
-                       <br>
-                        tel. +48 784 496 436<br>
-                        email j.kicek@gmail.com<br>
+                <div class="d-none d-lg-block col-lg-3">
+                    <address class="text-left"><br>
+                        <p>tel. +48 784 496 436</p>
+                        <p>email j.kicek@gmail.com</p>
                     </address>
-                    <div id="socials" class="container">
-                       <div class="row">
-                       <div class="col-sm-3"><a href="" id="git"><i class="fab fa-github"></i></a></div>
-                       <div class="col-sm-3"><a href="" id="li"><i class="fab fa-linkedin"></i></a></div>
-                       </div>
+                    <div id="socials2" class="container">
+                        <div class="row">
+                            <div class="col-sm-3"><a href="" id="git"><i class="fab fa-github"></i></a></div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-3"><a href="" id="li"><i class="fab fa-linkedin"></i></a></div>
+                        </div>
                     </div>
                 </div>
-                <div class="d-none d-lg-block col-lg-6">
+                <div class="d-none d-lg-block col-lg-4">
                     <form action="https://formspree.io/j.kicek@gmail.com" method="post" class="text-right">
                         <input name="name" type="text" class="form-control" placeholder="Imię i nazwisko">
                         <input name="email" type="email" class="form-control" placeholder="Email">
@@ -160,15 +162,16 @@
                         <input type="submit" class="btn btn-lg submitBtn" value="Wyślij">
                     </form>
                 </div>
+                <div class="d-none d-lg-block col-lg-2"></div>
             </div>
         </div>
     </section>
-    
-    
+
+
     <footer>
         <p class="text-center">Copyright &copy; 2018 Jakub Kicek<span> Designed with the <a href="https://www.vecteezy.com/">Vecteezy Editor</a></span></p>
     </footer>
-    
+
     <script src="js/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="bootstrap/bootstrap-js/bootstrap.min.js"></script>

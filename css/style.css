@@ -5,7 +5,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /*HEADER START*/
@@ -56,6 +56,8 @@ div#smartphone {
 
 #main-nav .navbar-brand {
     font-size: 8vw;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
 }
 
 #main-nav a {
@@ -286,10 +288,10 @@ p {
     article {
         font-size: 23px;
     }
-    article a{
+    article a#a108{
         color: inherit;
     }
-    article a:hover{
+    article a#a108:hover{
         color: inherit;
     }
     section#skills {

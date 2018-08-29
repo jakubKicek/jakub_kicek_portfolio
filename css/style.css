@@ -120,6 +120,14 @@ section#skills #my-skills .row div {
     margin-top: 2em;
 }
 
+article a#a108 {
+    color: inherit;
+}
+
+article a#a108:hover {
+    color: inherit;
+}
+
 section#skills #my-skills > .row div > img {
     max-height: 90%;
 }
@@ -158,13 +166,15 @@ form {
     border: 2px solid #ffe400;
 }
 
-#socials1 a,#socials2 a {
+#socials1 a,
+#socials2 a {
     font-size: 4em;
     color: #ffe400;
     transition-duration: 0.5s;
 }
 
-#socials1 a:hover,#socials2 a:hover {
+#socials1 a:hover,
+#socials2 a:hover {
     color: #bba100;
 }
 
@@ -231,10 +241,10 @@ p {
 /*WIDTH > 750px*/
 
 @media (min-width: 750px) {
-    #main-nav a{
+    #main-nav a {
         font-size: 4vw;
     }
-    #main-nav .navbar-brand{
+    #main-nav .navbar-brand {
         font-size: 8vw;
     }
     h2 {
@@ -258,16 +268,17 @@ p {
     p {
         font-size: 30px;
     }
-    footer p{
+    footer p {
         font-size: 25px;
     }
     input[type="submit"] {
         font-size: 3em;
     }
-    #socials1 .row{
+    #socials1 .row {
         padding-top: 5vh;
     }
-    #li i,#git i{
+    #li i,
+    #git i {
         padding-top: 4vh;
     }
 }
@@ -276,10 +287,10 @@ p {
 /*WIDTH > 1024px*/
 
 @media (min-width: 1024px) {
-    #main-nav a{
+    #main-nav a {
         font-size: 2vw;
     }
-    #main-nav .navbar-brand{
+    #main-nav .navbar-brand {
         font-size: 4vw;
     }
     h2 {
@@ -287,12 +298,6 @@ p {
     }
     article {
         font-size: 23px;
-    }
-    article a#a108{
-        color: inherit;
-    }
-    article a#a108:hover{
-        color: inherit;
     }
     section#skills {
         padding-top: 15vh;
@@ -310,17 +315,18 @@ p {
         font-size: 1em;
         margin-bottom: 0;
     }
-    footer p{
+    footer p {
         font-size: 1em;
     }
     input[type="submit"] {
         font-size: 1em;
     }
-    #li i,#git i{
+    #li i,
+    #git i {
         padding-top: 0;
         font-size: 0.8em;
     }
-    
+
     div#par_1 {
         background-image: url(../img/header/forrest_1.svg);
         opacity: 1;

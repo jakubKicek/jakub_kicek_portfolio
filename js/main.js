@@ -1,4 +1,5 @@
 $(document).ready(function () {
+//    alert("Hey! Page is still in polish, but don't worry, english version in progress.");
     window.addEventListener("scroll", function (e) {
 
         let top = this.pageYOffset;

@@ -109,7 +109,6 @@ section#about {
 section#skills {
     background-color: whitesmoke;
     border-top: 5vh solid lightgrey;
-    border-bottom: 5vh solid lightgrey;
     color: #000d27;
 }
 
@@ -122,6 +121,7 @@ section#skills #my-skills .row div {
 
 article a#a108 {
     color: inherit;
+    text-decoration: underline;
 }
 
 article a#a108:hover {
@@ -137,6 +137,44 @@ section#skills #my-skills > .row div figure img {
 }
 
 /*SKILLS END*/
+
+/*PORTFOLIO START*/
+#my-projects{
+    background-color: whitesmoke;
+    border-bottom: 5vh solid lightgrey;
+    box-sizing: border-box;
+    padding: 10vh 0;
+}
+#my-projects h2{
+    margin: 5vh 0;
+}
+#my-projects h3{
+    font-size: 2em;
+    text-align: center;
+}
+.project{
+    margin-bottom: 5vh;
+}
+.project article{
+    text-align: justify;
+    display: block;
+}
+#my-projects a{
+    padding: 0;
+    color: black;
+    text-decoration: underline;
+}
+#my-projects #cyberpunkers-generator a img{
+    max-width: 100%;
+    border: 5px solid lightgrey;
+    border-radius: 30px;
+    transition-duration: 1s;
+}
+#my-projects #cyberpunkers-generator a img:hover{
+    transform: scale(1.05);
+}
+
+/*PORTFOLIO END*/
 
 /*CONTACT START*/
 
@@ -201,12 +239,14 @@ footer span {
 
 footer a {
     color: #000d27;
+    text-decoration: underline;
 }
 
 /*RWD*/
 
 h2 {
     font-size: 70px;
+    text-align: center;
 }
 
 article {
@@ -247,6 +287,7 @@ p {
     #main-nav .navbar-brand {
         font-size: 8vw;
     }
+    
     h2 {
         font-size: 65px;
     }
@@ -281,6 +322,12 @@ p {
     #git i {
         padding-top: 4vh;
     }
+    #my-projects h2{
+        margin-bottom: 10vh;
+    }
+    #my-projects h3{
+        font-size: 50px;
+    }
 }
 
 
@@ -292,6 +339,9 @@ p {
     }
     #main-nav .navbar-brand {
         font-size: 4vw;
+    }
+    #my-projects h3{
+        text-align: left;
     }
     h2 {
         font-size: 45px;
